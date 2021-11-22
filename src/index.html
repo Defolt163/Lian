@@ -5,8 +5,521 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo col-md-2">
+                    <img src="ico/logo.png" alt="logo" class="header__img">
+                </div>
+                <ul class="header__menu col-md-5 offset-md-5">
+                    <li class="menu__item menu__item_active"><a href="#" class="menu__link">HOME</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">About</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">BLOG</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="promo">
+        <div class="promo-slider">
+            <div class="first_slide">
+                <div class="label__title">Lian Creative Agency</div>
+                <div class="label__subtitle">Minimal Freelance Portfolio</div>
+            </div>
+            <div class="second_slide">
+                <div class="label__title">Lian Creative Agency</div>
+                <div class="label__subtitle">Minimal Freelance Portfolio</div>
+            </div>
+            <div class="three_slide">
+                <div class="label__title">Lian Creative Agency</div>
+                <div class="label__subtitle">Minimal Freelance Portfolio</div>
+            </div>
+        </div>
+    </div>
+
+    <section class="general">
+        <div class="container">
+            <div class="tabs">
+                <div class="menu__wrapper">
+                    <div class="menu__divider"></div>
+                        <div class="menu__box">
+                            <ul class="menu__list">
+                                <li class="menu__item menu__item_active" data-tab="0">All</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="2">Logo</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="3">Mobile App</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="4">WordPress</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="5">Web Design</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="6">UI/IX</li><div class="divider_rotate"></div>
+                                <li class="menu__item" data-tab="7">Branding</li>
+                            </ul>
+                        </div>
+                    <div class="menu__divider"></div>
+                </div>
+                <!-- all -->
+                <div class="tab__items">
+                    <div class="catalog__content_first catalog__content_first_active col-md-11 mx-auto" data-tab="0">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/3.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper ">
+                                <div class="nohovered">
+                                    <img src="img/home/card/4.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/5.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/6.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/7.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/8.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/9.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item"></div> <!-- empty block -->
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/10.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- logo -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="2">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/3.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mobile app -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="3">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WordPress -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="4">
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/3.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper ">
+                                <div class="nohovered">
+                                    <img src="img/home/card/4.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/5.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- WD -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="5">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/3.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper ">
+                                <div class="nohovered">
+                                    <img src="img/home/card/4.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/5.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/6.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/7.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/8.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/9.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item"></div> <!-- empty block -->
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/10.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- UI/IX -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="6">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Branding -->
+                    <div class="catalog__content col-md-11 mx-auto" data-tab="7">
+                        <div class="grid-sizer"></div>
+                        <div class="catalog__item">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/1.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__item catalog__item--width2">
+                            <div class="catalog__item__wrapper">
+                                <div class="nohovered">
+                                    <img src="img/home/card/2.png" alt="" class="item__img">
+                                    <div class="hovered__effect">
+                                        <div class="plus__box">
+                                            <div class="figure__plus"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://kit.fontawesome.com/073ad96d9b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+.slick-prev, .slick-next
+    width: 42px
+    height: 43px
+    border: solid 1px #fff
+    background: none
+    border-radius: 50%
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    z-index: 2
+    transition: all 0.3s
+    img
+        width: 80%
+    &:hover
+        background: #000
+        border: solid 1px #000
+.slick-prev
+    left: 10%
+.slick-next
+    right: 10%
+.slick-dots
+    position: absolute
+    bottom: 0
+    list-style: none
+    display: flex
+    justify-content: space-around
+    width: 10%
+    left: 50%
+    transform: translateX(-50%)
+    button
+        font-size: 0
+        background: #fff // цвет фона
+        border-radius: 50% // радиус закругления
+        border: none
+        width: 15px
+        height: 14px
+    .slick-active
+        button
+            outline: 4px solid #000
+            outline-offset: -4px
