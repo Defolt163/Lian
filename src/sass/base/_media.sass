@@ -69,6 +69,16 @@
                 .logo__footer
                     width: 15% !important
 
+    .general 
+        .catalog__content_first 
+            .catalog__item 
+                .nohovered
+                    &:hover
+                        .hovered__effect 
+                            .plus__box
+                                left: 41% !important
+                                transform: translate(-50%, -50%) !important
+
 @media ( max-width: 553px)
     .promo
         .promo-slider
@@ -82,6 +92,20 @@
             .footer__smm 
                 .smm__box
                     width: 66% !important
+    .general 
+        .catalog__content_first 
+            .catalog__item 
+                .nohovered
+                    &:hover
+                        .hovered__effect 
+                            .plus__box
+                                left: 37% !important
+                                .figure__plus
+                                    height: 30px !important
+                                    &::after
+                                        width: 30px !important
+                                        left: -15px !important
+                                        top: 15px !important
 
 @media ( max-width: 412px)
     .promo
@@ -91,6 +115,14 @@
                 line-height: 1.7 !important
             .label__subtitle
                 font-size: 16px !important
+    .general 
+        .catalog__content_first 
+            .catalog__item 
+                .nohovered
+                    &:hover
+                        .hovered__effect 
+                            .plus__box
+                                left: 33% !important
 
 @media ( max-width: 472px)
     .promo
@@ -100,3 +132,13 @@
                 line-height: 2 !important
             .label__subtitle
                 font-size: 13px !important
+
+@media ( max-width: 320px)
+    .general 
+        .catalog__content_first 
+            .catalog__item 
+                .nohovered
+                    &:hover
+                        .hovered__effect 
+                            .plus__box
+                                left: 30% !important
