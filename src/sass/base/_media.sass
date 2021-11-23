@@ -23,19 +23,17 @@
                     overflow: auto
                     position: fixed
                     background: rgba(216,218,217, .8)
-                    height: 100vh
+                    height: 115vh
                     width: 100%
                     z-index: 4
                     top: -300%
-                    left: 0
+                    left: 100%
                     display: flex
                     flex-direction: column
                     align-items: center
                     transition: all 0.5s
                     .header__menu__item
                         background: #000000
-                        width: 50%
-                        height: 18%
                         border: solid 1px #fff
                         margin-bottom: 1px
                         display: flex
@@ -84,6 +82,12 @@
                                 transform: translate(-50%, -50%) !important
 
 @media ( max-width: 553px)
+    header
+        .header__wrapper
+            .header__nav
+                .header__menu
+                    .header__menu__item
+                        width: 100% !important
     .promo
         .promo-slider
             .label__title
