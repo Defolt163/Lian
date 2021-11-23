@@ -24,6 +24,18 @@ var msnry = new Masonry( elem, {
   horizontalOrder: true,
   initLayout: true,
 });
+$('.menu__item').on('click', function() {
+	// do async to allow menu to open
+	setTimeout( function() {
+		$('.catalog__content_first').masonry({
+			itemSelector: '.catalog__item',
+      columnWidth: '.grid-sizer',
+      percentPosition: true,
+      horizontalOrder: true,
+      initLayout: true,
+		}, 500);
+	});
+});
 var msnry = new Masonry( '.catalog__content_active', {
   // options
   initLayout: true,
