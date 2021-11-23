@@ -80,7 +80,61 @@
                             .plus__box
                                 left: 41% !important
                                 transform: translate(-50%, -50%) !important
+    
+    /** about **/
+    .about__promo
+        .about__promo__wrapper 
+            .label__title
+                width: 480px
 
+    .about
+        &__wrapper
+            display: flex !important
+            flex-direction: column !important
+            align-items: center
+            .photo__wrapper
+                display: none
+            .story__wrapper
+                align-items: center
+            .skills__wrapper
+                height: 50vh
+    .team            
+        .team__wrapper 
+            .team__label
+                .team__text
+                    width: 100%
+            .staff__card__box 
+                .card__wrapper
+                    min-height: 540px
+                    width: 32%
+
+@media ( max-width: 650px)
+    .about
+        .about__wrapper 
+            .skills__wrapper 
+                width: 90%
+                .skill__statistics__box 
+                    .skill__statistics__item
+                        .stat__line 
+                            width: 100%
+                            .load__line
+                                width: 90%
+                                &_2
+                                    width: 98px
+                                &_3
+                                    width: 50%
+                                &_4
+                                    width: 85%
+
+@media ( max-width: 503px)
+    .about__promo
+        .about__promo__wrapper 
+            .label__title
+                width: 100%
+                font-size: 39px
+                line-height: 1.5
+            .label__subtitle
+                text-align: center
 @media ( max-width: 553px)
     header
         .header__wrapper
@@ -119,6 +173,15 @@
                                         width: 30px !important
                                         left: -15px !important
                                         top: 15px !important
+    .team
+        .team__wrapper 
+            .staff__card__box
+                display: grid !important
+                grid-template-columns: repeat(2, auto)
+                grid-gap: 15px
+                .card__wrapper
+                    width: 100%
+                    
 
 @media ( max-width: 412px)
     .promo
@@ -145,7 +208,22 @@
                 line-height: 2 !important
             .label__subtitle
                 font-size: 13px !important
-
+    .about
+        min-height: 810px !important
+    .about__promo 
+        .about__promo__wrapper 
+            .label__title
+                font-size: 34px
+    .team
+        .team__wrapper 
+            .team__label
+                height: 250px !important
+    @media ( max-width: 340px)
+        .about__promo 
+            .about__promo__wrapper 
+                .label__title
+                    font-size: 30px
+                    line-height: 1.8
 @media ( max-width: 320px)
     .general 
         .catalog__content_first 
@@ -155,3 +233,7 @@
                         .hovered__effect 
                             .plus__box
                                 left: 30% !important
+    .team
+        .team__wrapper 
+            .team__label
+                height: 280px !important

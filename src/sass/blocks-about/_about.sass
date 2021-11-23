@@ -1,0 +1,96 @@
+.about
+    padding-top: 72px
+    min-height: 770px
+    &__wrapper
+        display: grid
+        grid-template-areas: 'A A A A   B B B B' 'A A A A   C C C C' 'A A A A   C C C C' 'A A A A   C C C C'
+        grid-gap: 54px
+        justify-content: end
+        .photo__wrapper
+            grid-area: A
+        .story__wrapper
+            grid-area: B
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            .story__label
+                font-size: 18px
+                font-weight: 300
+                line-height: 1.33
+                letter-spacing: 7.2px
+                color: #000
+            .story__text
+                font-size: 14px
+                line-height: 2.14
+                letter-spacing: 0.35px
+                text-align: left
+                color: #777
+        .skills__wrapper
+            grid-area: C
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            .skills__label
+                font-size: 18px
+                font-weight: 300
+                line-height: 1.33
+                letter-spacing: 7.2px
+                color: #000
+            .skill__statistics__box
+                .skill__statistics__item
+                    .stat__label
+                        font-size: 16px
+                        font-weight: bold
+                        line-height: 0.63
+                        letter-spacing: 0.4px
+                        text-align: left
+                        color: #2f302f
+                    .stat__line
+                        width: 552px
+                        height: 10px
+                        background-color: #ebebeb
+                        display: flex
+                        align-items: center
+                        .load__line
+                            width: 490px
+                            height: 2px
+                            background-image: linear-gradient(to top, #000, #8b8b8b), linear-gradient(to bottom, #a1a1a1, #a1a1a1)
+                            animation: load 1s ease-in
+                            &_2
+                                width: 520px
+                                animation: load 1s ease-in
+                            &_3
+                                width: 276px
+                                animation: load 1s ease-in
+                            &_4
+                                width: 450px
+                                animation: load 1s ease-in
+                        .stat__circle
+                            position: relative
+                            width: 12px
+                            height: 12px
+                            border: solid 4px #000
+                            border-radius: 50%
+                            background-color: #fff
+                            .stat__flag__wrapper
+                                position: absolute
+                                left: 0
+                                bottom: 15px
+                                .stat__flag
+                                    position: relative
+                                    width: 40px
+                                    height: 21px
+                                    background-color: #041608
+                                    color: #fff
+                                    font-size: 12px
+                                    text-align: center
+                                    &::after
+                                        content: ""
+                                        top: 20px
+                                        left: 0
+                                        position: absolute
+                                        width: 0
+                                        height: 0
+                                        border-top: 14px solid #041608
+                                        border-right: 8px solid transparent
+        
