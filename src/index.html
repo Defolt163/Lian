@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LIAN</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -19,13 +19,20 @@
                 <div class="header__logo col-md-2">
                     <img src="ico/logo.png" alt="logo" class="header__img">
                 </div>
-                <ul class="header__menu col-md-5 offset-md-5">
-                    <li class="menu__item menu__item_active"><a href="#" class="menu__link">HOME</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">About</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Portfolio</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">BLOG</a></li>
-                    <li class="menu__item"><a href="#" class="menu__link">Contact</a></li>
-                </ul>
+                <nav class="header__nav col-lg-5 offset-lg-5 col-md-7 .col-sm-7">
+                    <ul class="header__menu">
+                        <li class="header__menu__item header__menu__item_active"><a href="#" class="menu__link">HOME</a></li>
+                        <li class="header__menu__item"><a href="#" class="menu__link">About</a></li>
+                        <li class="header__menu__item"><a href="#" class="menu__link">Portfolio</a></li>
+                        <li class="header__menu__item"><a href="#" class="menu__link">BLOG</a></li>
+                        <li class="header__menu__item"><a href="#" class="menu__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="humburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -51,7 +58,7 @@
         <div class="container">
             <div class="tabs">
                 <div class="menu__wrapper">
-                    <div class="menu__divider"></div>
+                    <div class="divider divider_catalog"></div>
                         <div class="menu__box">
                             <ul class="menu__list">
                                 <li class="menu__item menu__item_active" data-tab="0">All</li><div class="divider_rotate"></div>
@@ -63,7 +70,7 @@
                                 <li class="menu__item" data-tab="7">Branding</li>
                             </ul>
                         </div>
-                    <div class="menu__divider"></div>
+                    <div class="divider divider_catalog"></div>
                 </div>
                 <!-- all -->
                 <div class="tab__items">
@@ -438,20 +445,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid-sizer"></div>
-                        <div class="catalog__item"></div> <!-- empty block -->
-                        <div class="catalog__item">
-                            <div class="catalog__item__wrapper">
-                                <div class="nohovered">
-                                    <img src="img/home/card/10.png" alt="" class="item__img">
-                                    <div class="hovered__effect">
-                                        <div class="plus__box">
-                                            <div class="figure__plus"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <!-- UI/IX -->
                     <div class="catalog__content col-md-11 mx-auto" data-tab="6">
@@ -513,6 +506,30 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="logo__center">
+                    <img src="ico/logo.png" alt="logo" class="logo__footer">
+                </div>
+                <div class="footer__smm">
+                    <div class="divider"></div>
+                    <div class="smm__box">
+                        <a href="#" class="smm__item"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-invision"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="smm__item"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+                <div class="footer__copirate">© 2021 <span>Mulitix Theme</span> by ThemeForces. All Rights Reserved.</div>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
