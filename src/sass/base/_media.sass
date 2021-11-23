@@ -15,6 +15,16 @@
             .menu__box 
                 .menu__list
                     width: 100% !important
+    .stand
+        .stand__wrapper
+            .stand__column
+                width: 48%
+                &:last-child
+                    display: grid
+                    grid-template-columns: repeat(2, 100%)
+                    column-gap: 8%
+    
+
 @media ( max-width: 769px)
     header 
         .header__wrapper 
@@ -82,8 +92,8 @@
                                 transform: translate(-50%, -50%) !important
     
     /** about **/
-    .about__promo
-        .about__promo__wrapper 
+    .label-promo
+        .label-promo__wrapper 
             .label__title
                 width: 480px
 
@@ -127,8 +137,8 @@
                                     width: 85%
 
 @media ( max-width: 503px)
-    .about__promo
-        .about__promo__wrapper 
+    .label-promo
+        .label-promo__wrapper 
             .label__title
                 width: 100%
                 font-size: 39px
@@ -210,8 +220,8 @@
                 font-size: 13px !important
     .about
         min-height: 810px !important
-    .about__promo 
-        .about__promo__wrapper 
+    .label-promo 
+        .label-promo__wrapper 
             .label__title
                 font-size: 34px
     .team
@@ -219,11 +229,20 @@
             .team__label
                 height: 250px !important
     @media ( max-width: 340px)
-        .about__promo 
-            .about__promo__wrapper 
+        .label-promo 
+            .label-promo__wrapper 
                 .label__title
                     font-size: 30px
                     line-height: 1.8
+
+@media ( max-width: 376px)
+    .stand
+        .stand__wrapper
+            flex-direction: column
+            .stand__column
+                width: 100%
+                &:last-child
+                    display: block
 @media ( max-width: 320px)
     .general 
         .catalog__content_first 

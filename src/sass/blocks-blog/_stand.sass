@@ -1,0 +1,85 @@
+.stand
+    min-height: 1700px
+    padding-top: 70px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        .stand__column
+            width: 30%
+            .column__card
+                width: 100%
+                margin-bottom: 30px
+                background: #fff
+                .card__wrapper
+                    cursor: pointer
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    .card__img
+                        width: 100%
+                    .card__descr
+                        width: 75%
+                        margin-bottom: 30px
+                        .card__header
+                            font-size: 20px
+                            font-weight: bold
+                            line-height: 1.5
+                            color: #333
+                        .author
+                            font-size: 13px
+                            line-height: 2.31
+                            color: #ccc
+                        .card__text
+                            font-size: 14px
+                            line-height: 1.71
+                            text-align: left
+                            color: #777
+                &_effected
+                    .card__wrapper
+                        cursor: pointer
+                        position: relative
+                        justify-content: center
+                        .card__img
+                            width: 100%
+                            height: 300px
+                        .card__descr
+                            display: none
+                            width: 85%
+                        .bgb
+                            opacity: 0
+                            width: 100%
+                            height: 100%
+                        &:hover
+                            .card__descr
+                                z-index: 2
+                                display: block
+                                position: absolute
+                                .card__header, .author, .card__text
+                                    color: #fff
+                            .bgb
+                                z-index: 1
+                                position: absolute
+                                opacity: 1
+                                background: rgba(0, 0, 0, .8)
+                &_inst
+                    .card__header__block
+                        width: 100%
+                        height: 60px
+                        background-color: #ebebeb
+                        font-size: 18px
+                        font-weight: 300
+                        line-height: 3.33
+                        letter-spacing: 7.2px
+                        text-align: center
+                        color: #000
+                        margin-bottom: 30px
+                    .card__wrapper
+                        .row
+                            flex-direction: row
+                            justify-content: space-around
+                            width: 90%
+                            .insta__img
+                                width: 30%
+                                padding: 0
+                                margin-bottom: 10px
