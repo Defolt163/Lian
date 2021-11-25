@@ -8,7 +8,7 @@ $(document).on('ready',function(){
             breakpoint: 992,
             settings: {
               arrows: false,
-              dots: false,
+              dots: true,
             }
           }
         ]
