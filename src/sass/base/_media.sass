@@ -118,6 +118,33 @@
                     min-height: 540px
                     width: 32%
 
+@media ( max-width: 767px)
+    .contact
+        padding: 50px 0 50px 0
+        .contact__wrapper
+            flex-direction: column
+            .contact__info
+                width: 100%
+            .contact_form
+                width: 100%
+                height: 80%
+    .management
+        .management__wrapper
+            .control__box
+                width: 75%
+            .show__box
+                width: 25%
+    .page__descr
+        padding-top: 70px
+        min-height: 800px !important
+        &__wrapper
+            height: auto !important
+            flex-direction: column
+            .product__descr
+                width: 100% !important
+            .product__photo
+                width: 100% !important
+
 @media ( max-width: 650px)
     .about
         .about__wrapper 
@@ -210,6 +237,22 @@
                             .plus__box
                                 left: 33% !important
 
+@media ( max-width: 402px)
+    .management 
+        .management__wrapper 
+            .control__box
+                width: 100%
+                .prev-next
+                    width: 100%
+                    &:first-child
+                        border-left: none
+                    &:last-child
+                        border-right: none
+            .show__box
+                display: none
+    .page__descr
+        padding-top: 50px
+
 @media ( max-width: 472px)
     .promo
         .promo-slider
@@ -243,6 +286,38 @@
                 width: 100%
                 &:last-child
                     display: block
+
+@media ( max-width: 375px)
+    .contact
+        .contact__wrapper
+            .contact_form
+                .contact_input
+                    flex-direction: column
+                    .contact_data
+                        width: 100%
+                        margin-bottom: 10px
+
+@media ( max-width: 372px)
+    .page__descr
+        .page__descr__wrapper
+            .product__descr
+                .product__header
+                    .product__name
+                        font-size: 27px
+                    .product__category
+                        font-size: 15px
+                    .product__role
+                        .role__header
+                            font-size: 15px
+
+@media ( max-width: 346px)
+    .page__descr
+        .page__descr__wrapper
+            .product__descr
+                .product__header
+                    .product__name
+                        font-size: 23px
+
 @media ( max-width: 320px)
     .general 
         .catalog__content_first 
@@ -256,3 +331,4 @@
         .team__wrapper 
             .team__label
                 height: 280px !important
+

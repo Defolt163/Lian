@@ -1,0 +1,81 @@
+.page__descr
+    min-height: 660px
+    &__wrapper
+        display: flex
+        height: 660px
+        justify-content: space-around
+        .product__descr
+            display: flex
+            flex-direction: column
+            width: 50%
+            justify-content: center
+            .product__header
+                height: 55%
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                .product__name
+                    font-size: 30px
+                    font-weight: normal
+                    line-height: 1.2
+                    letter-spacing: 6px
+                    color: #000
+                .product__category
+                    font-size: 16px
+                    font-weight: bold
+                    line-height: 1.88
+                    letter-spacing: 0.4px
+                    color: #333
+                .date__place
+                    font-size: 14px
+                    font-weight: bold
+                    line-height: 3.43
+                    letter-spacing: 0.35px
+                    text-align: left
+                    color: #555
+                .product__text
+                    font-size: 14px
+                    line-height: 2.14
+                    letter-spacing: 0.35px
+                    text-align: left
+                    color: #777
+                .product__role
+                    .role__header
+                        font-size: 16px
+                        font-weight: bold
+                        line-height: 2.25
+                        letter-spacing: 0.4px
+                        text-align: left
+                        color: #333
+                    .role__team
+                        font-size: 16px
+                        font-weight: normal
+                        line-height: 2.25
+                        letter-spacing: 0.4px
+                        text-align: left
+                        color: #999
+        .product__photo
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            .slider-show
+                .img__item
+                    .nav__img
+                        margin: 0 auto
+                        margin-bottom: 10px
+            .slider-nav
+                .img__item_nav
+                    cursor: pointer
+                    height: 115px
+                    overflow: hidden
+                    margin-right: 10px
+                    &:last-child
+                        margin-right: 0
+                    .nav__img
+                        width: 100%
+                    &:hover
+                        border: 1px solid #000
+                .img__item_nav.slick-current
+                    border: 1px solid #000
+
